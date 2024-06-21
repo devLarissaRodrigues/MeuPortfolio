@@ -1,4 +1,4 @@
-Meu Portfólio
+## Meu Portfólio
 
 Este é o meu projeto de portfólio desenvolvido utilizando HTML, CSS e JavaScript. Aqui eu mostro algumas das minhas habilidades, projetos e experiências.
 
