@@ -14,7 +14,7 @@ Este é o meu projeto de portfólio desenvolvido utilizando HTML, CSS e JavaScri
 
 - Apresentação de informações sobre mim
 - Exibição de projetos realizados
-- Contato via formulário ou redes sociais
+- Contato redes sociais
 
 ## Como Usar
 
@@ -43,11 +43,4 @@ Contribuições são sempre bem-vindas! Para sugestões, correções ou melhoria
 - Website: em breve!
 - LinkedIn: [[linkedin.com/seu_perfil](https://www.linkedin.com/in/seu_perfil/)](https://www.linkedin.com/in/larissa-rodrigues-0a28a2277/)
 - Email: larissa.rodrigues@ccc.ufcg.edu.br
-
-
-### Personalização:
-
-- Substituir `link_para_imagem.png` com o caminho para uma imagem de pré-visualização do seu portfólio.
-- Atualizar `seu_usuario/seu-portfolio` com o link correto para o seu repositório no GitHub.
-- Personalizar os links do LinkedIn, e-mail e outros conforme necessário.
 
