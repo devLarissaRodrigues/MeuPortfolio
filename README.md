@@ -23,8 +23,10 @@ Este é o meu projeto de portfólio desenvolvido utilizando HTML, CSS e JavaScri
 ## Como Usar
 
 1. Clone este repositório:
+ ```bash
    
 git clone https://github.com/seu_usuario/seu-portfolio.git
+```
 
 2. Abra o arquivo index.html no seu navegador web.
 
