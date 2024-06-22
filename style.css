@@ -20,7 +20,7 @@ body{
     display: flex; 
 }
 
-.botao button{
+.botao-contato button{
     padding: 10px 40px;
     color: #fff;
     font-size: 18px;
@@ -41,6 +41,12 @@ h2.titulo{
 h2.titulo span{
     color: #c55bd0
 }
+
+button:hover{
+    box-shadow: 0px 0px 8px #9032bb;
+    transform: scale(1.1);
+}
+
 
 /* ESTILO DO CABEÇALHO */
 header{
@@ -76,7 +82,7 @@ header nav ul li{
 
 }
 
-.botao button:hover{
+button:hover{
     box-shadow: 0px 0px 8px #9032bb;
     transform: scale(1.1);
 }
@@ -160,4 +166,96 @@ section.especialidades .flex{
 .especialidades .especialidades-box p{
     text-align: justify;
 
+}
+
+/* ESTILO DO SOBRE */
+section.sobre{
+    padding: 40px 4%;
+}
+
+section.sobre .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+.sobre .txt-sobre{
+    color: #fff;
+}
+
+.sobre .txt-sobre h2{
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.sobre .txt-sobre h2 span{
+    color: #c55bd0;
+    display: block;
+}
+
+.sobre .txt-sobre p{
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.sobre .txt-sobre .botao-midia button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color:#c55bd0;
+    font-size: 22px;
+    cursor: pointer;
+    color: #fff; 
+    margin: 0 10px;
+    transition: .2s;
+}
+
+/* ESTILO DO PORTFÓLIO */
+section.portfolio{
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10px #ffffff25;
+}
+
+section.portfolio .flex{
+    gap: 80px;
+    margin-top: 60px;
+}
+
+.img-portfolio{
+    width: 360px;
+    height: 460px;
+    background-color: #c55bd0;
+    background-size: cover;
+    background-position: 100% 0%;
+    transition: 8s;
+    cursor: pointer;
+    border-radius: 40px;
+    position: relative;
+}
+
+.img-portfolio:hover{
+    background-position: 100% 100%;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:#241441b0;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    opacity: 0;
+    transition: .5;
+}
+
+.overlay:hover{
+    opacity: 1;
 }
