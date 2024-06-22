@@ -23,8 +23,15 @@ Este é o meu projeto de portfólio desenvolvido utilizando HTML, CSS e JavaScri
 ## Como Usar
 
 1. Clone este repositório:
+<<<<<<< HEAD
    
 git clone https://github.com/seu_usuario/seu-portfolio.git
+=======
+ ```bash
+   
+git clone https://github.com/seu_usuario/seu-portfolio.git
+```
+>>>>>>> 0d792f9d47d4928aa2e78107158493c577f43b97
 
 2. Abra o arquivo index.html no seu navegador web.
 
@@ -45,5 +52,10 @@ Contribuições são sempre bem-vindas! Para sugestões, correções ou melhoria
 ## Contato
 
 - Website: em breve!
+<<<<<<< HEAD
 - LinkedIn: [[linkedin.com/seu_perfil](https://www.linkedin.com/in/seu_perfil/)](https://www.linkedin.com/in/larissa-rodrigues-0a28a2277/)
 - Email: larissa.rodrigues@ccc.ufcg.edu.br
+=======
+- LinkedIn: https://www.linkedin.com/in/larissa-rodrigues-0a28a2277
+- Email: larissa.rodrigues@ccc.ufcg.edu.br
+>>>>>>> 0d792f9d47d4928aa2e78107158493c577f43b97
