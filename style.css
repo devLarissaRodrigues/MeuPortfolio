@@ -42,7 +42,7 @@ h2.titulo span{
     color: #c55bd0
 }
 
-button:hover{
+button:hover, form .botao-enviar input:hover{
     box-shadow: 0px 0px 8px #9032bb;
     transform: scale(1.1);
 }
@@ -67,7 +67,7 @@ header a{
     transition: .2s;
 }
 
-header a:hover{
+header nav.menu-desktop a:hover{
     color: #fff;
     transform: scale(1.1);
 }
@@ -76,7 +76,7 @@ header nav ul{
     list-style-type: none;
 }
 
-header nav ul li{
+header nav.menu-desktop ul li{
     display: inline-block;
     padding: 0 40px;
 
@@ -86,6 +86,71 @@ button:hover{
     box-shadow: 0px 0px 8px #9032bb;
     transform: scale(1.1);
 }
+
+/* ESTILO DO MENU MOBILE 
+.botao-abrir-menu{
+    color: #c55bd0;
+    font-size: 45px;
+}
+
+.menu-mobile{
+    background-color: #000;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 99999;
+    width: 0%;
+    overflow: hidden;
+    transition: .3s;
+}
+
+.menu-mobile.abrir-menu{
+    width: 70%;
+}
+
+.menu-mobile.botao-abrir-menu ~.overlay-menu{
+    display: block;
+}
+
+.menu-mobile .botao-fechar{
+    padding: 20px 5%;
+}
+
+.menu-mobile .botao-fechar i{
+    color: #c55bd0;
+    font-size: 30px
+}
+
+.menu-mobile nav ul{
+    text-align: right;
+}
+
+.menu-mobile nav ul li a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 20px 8%;
+    display: block;
+}
+
+.menu-mobile nav ul li a:hover{
+    background-color: #c55bd0;
+    color: #000;
+}
+
+.overlay-menu{
+    background-color: #000000c4;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 88888;
+    display: none;
+}
+
+*/
 
 /* ESTILO DO TOPO DO SITE */
 section.topo-do-site{
@@ -198,7 +263,7 @@ section.sobre .flex{
     text-align: justify;
 }
 
-.sobre .txt-sobre .botao-midia button{
+.botao-midia button{
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -258,4 +323,184 @@ section.portfolio .flex{
 
 .overlay:hover{
     opacity: 1;
+}
+
+/* ESTILO DO FORMULÁRIO */
+section.formulario{
+    padding: 80px 4%;
+}
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+form input, form textarea{
+    width: 100%;
+    background-color: #242424;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 18px;
+}
+
+form textarea{
+    max-height: 200px;
+    resize: none;
+}
+
+form input::placeholder{
+    color: #c1b5c2e1;
+}
+
+form textarea::placeholder{
+    color: #c1b5c2e1;
+}
+
+form textarea{
+    resize: none;
+    min-height: 200px;
+}
+
+form .botao-enviar{
+    margin-top: 20px;
+    text-align: center;
+}
+
+form .botao-enviar input[type=submit]{
+    width: 120px;
+    background-color: #c55bd0;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .2s;
+}
+
+/* ESTILO DO RADAPÉ */
+footer{
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px #ffffff25;
+}
+
+footer .flex{
+    justify-content: space-between;    
+}
+
+footer .line-footer{
+    padding: 20px 0;
+    border-bottom: 2px solid;
+}
+
+footer .line-footer p i{
+    color: #c55bd0;
+    font-size: 22px;
+}
+
+.borda{
+    border-top: 2px solid #c55bd0;
+
+}
+footer .line-footer p a{
+    color: #fff;
+    margin: 10px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1020px){
+    /* CLASSES GERAIS */
+    .flex{
+        flex-direction: column;
+    }
+
+    .topo-do-site .flex{
+        flex-direction: column-reverse;
+    }
+
+    h2.titulo{
+        font-size: 32px;
+        line-height: 30px;
+    }
+
+    /* CABEÇALHO: */
+    .menu-desktop, .botao-contato{
+        display: none;
+    }
+
+    /* TOPO DO SITE: */
+    .section.topo-do-site{
+        padding: 20px 8%;
+    }
+
+    .section.topo-do-site .flex{
+        gap: 40px;
+    }
+
+    .topo-do-site h1{
+        font-size: 34px;
+    }
+
+    .topo-do-site .img-topo-site img{
+        width: 100%;
+    }
+
+    /* ESPECIALIDADES: */
+    section.especialidades{
+        padding: 40px 8%;
+    }
+
+    /* SOBRE: */
+    section.sobre{
+        padding: 80px 8%;
+    }
+
+    .section .txt-sobre h2{
+        font-size: 34px;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .botao-midia{
+        text-align: center;
+    }
+ 
+    .botao-midia button{
+        width: 50px;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    .img-sobre img{
+        width: 100%;
+    }
+   
+    /* PORTFÓLIO: */
+    section.portfolio{
+        padding: 80px 8%;
+    }
+
+    .img-portfolio{
+        width: 100%;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+
+    section.portfolio .flex{
+        gap: 60px;
+    }
+
+    /* RODAPÉ: */
+    footer .flex{
+        flex-direction: column;
+    }
+
+    footer .line-footer{
+        text-align: center;
+    }
 }
