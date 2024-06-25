@@ -26,3 +26,22 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
+
+
+// Mostrar ou esconder o botão ao rolar a página
+window.addEventListener('scroll', () => {
+    const scrollToTopBtn = document.getElementById('scrollToTopBtn');
+    if (window.pageYOffset > 300) { // Exibir o botão após rolar 300px
+        scrollToTopBtn.classList.add('show');
+    } else {
+        scrollToTopBtn.classList.remove('show');
+    }
+});
+
+// Adicionar a funcionalidade de rolar ao topo
+document.getElementById('scrollToTopBtn').addEventListener('click', () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+});

@@ -87,6 +87,36 @@ button:hover{
     transform: scale(1.1);
 }
 
+/* ESTILO DO BOTÃO PARA VOLTAR AO TOPO */
+#scrollToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #c55bd0;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: opacity 0.3s, visibility 0.3s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 9999;
+}
+
+#scrollToTopBtn.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+#scrollToTopBtn i {
+    font-size: 24px;
+}
+
+
 /* ESTILO DO MENU MOBILE 
 .botao-abrir-menu{
     color: #c55bd0;
@@ -383,7 +413,7 @@ form .botao-enviar input[type=submit]{
     transition: .2s;
 }
 
-/* ESTILO DO RADAPÉ */
+/* ESTILO DO RODAPÉ */
 footer{
     padding: 40px 4%;
     box-shadow: 0 0 40px 10px #ffffff25;
