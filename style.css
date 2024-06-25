@@ -212,8 +212,8 @@ section.topo-do-site .flex{
 }
 
 .topo-do-site .img-topo-site img{
-    position: relative;
-    animation: flutuar 2s ease-in-out infinite alternate;
+    /*position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;*/
 }
 
 @keyframes flutuar{
