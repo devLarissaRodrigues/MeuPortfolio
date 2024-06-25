@@ -88,7 +88,7 @@ button:hover{
 }
 
 /* ESTILO DO BOTÃO PARA VOLTAR AO TOPO */
-#scrollToTopBtn {
+#scrollToTopBotao {
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -107,17 +107,17 @@ button:hover{
     z-index: 9999;
 }
 
-#scrollToTopBtn.show {
+#scrollToTopBotao.show {
     opacity: 1;
     visibility: visible;
 }
 
-#scrollToTopBtn i {
+#scrollToTopBotao i {
     font-size: 24px;
 }
 
 
-/* ESTILO DO MENU MOBILE 
+/* ESTILO DO MENU MOBILE */
 .botao-abrir-menu{
     color: #c55bd0;
     font-size: 45px;
@@ -179,8 +179,6 @@ button:hover{
     z-index: 88888;
     display: none;
 }
-
-*/
 
 /* ESTILO DO TOPO DO SITE */
 section.topo-do-site{
@@ -443,7 +441,7 @@ footer .line-footer p a{
     text-decoration: none;
 }
 
-@media screen and (max-width: 1020px){
+@media screen and (min-width: 0px) and (max-width: 1000px){
     /* CLASSES GERAIS */
     .flex{
         flex-direction: column;
@@ -532,5 +530,26 @@ footer .line-footer p a{
 
     footer .line-footer{
         text-align: center;
+    }
+}
+
+
+/* ESTILOS PARA TELAS MENORES QUE 1000px */
+@media (min-width: 0px) and (max-width: 1019px) {
+    .botao-abrir-menu {
+        display: block; /* Mostra o ícone do menu */
+    }
+    .menu-desktop {
+        display: none; /* Esconde o menu desktop */
+    }
+}
+
+/* ESTILOS PARA TELAS MAIORES OU IGUAIS A 1000px */
+@media (min-width: 1020px) {
+    .botao-abrir-menu {
+        display: none; /* Esconde o ícone do menu */
+    }
+    .menu-desktop {
+        display: block; /* Mostra o menu desktop */
     }
 }
