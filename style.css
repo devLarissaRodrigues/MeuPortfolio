@@ -227,6 +227,7 @@ section.topo-do-site .flex{
 
 /* ESTILO DA ESPECIALIDADES */
 section.especialidades{
+    background-color: #f6e3f8fd;
     padding: 40px 4%;
 }
 
@@ -235,7 +236,7 @@ section.especialidades .flex{
 }
 
 .especialidades .especialidades-box{
-    color: #fff;
+    color: #;
     padding: 40px;
     border-radius: 20px;
     margin-top: 45px;
@@ -306,6 +307,7 @@ section.sobre .flex{
 
 /* ESTILO DO PORTFÓLIO */
 section.portfolio{
+    background-color: #f6e3f8fd;
     padding: 80px 4%;
     box-shadow: 0 0 40px 10px #ffffff25;
 }
