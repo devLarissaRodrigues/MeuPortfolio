@@ -50,5 +50,3 @@ Contribuições são sempre bem-vindas! Para sugestões, correções ou melhoria
 - Website: em breve!
 - LinkedIn: https://www.linkedin.com/in/larissa-rodrigues-0a28a2277
 - Email: larissa.rodrigues@ccc.ufcg.edu.br
-- LinkedIn: https://www.linkedin.com/in/larissa-rodrigues-0a28a2277
-- Email: larissa.rodrigues@ccc.ufcg.edu.br
