@@ -237,7 +237,8 @@ section.especialidades .flex{
 }
 
 .especialidades .especialidades-box{
-    color: #000;
+    color: #000000;
+    border: 5px outset #c55bd0;
     padding: 40px;
     border-radius: 20px;
     margin-top: 45px;
@@ -322,7 +323,8 @@ section.portfolio .flex{
 .img-portfolio{
     width: 360px;
     height: 460px;
-    background-color: #c55bd0;
+    border: 5px solid #c55bd0;
+    background-color: #c45bd049;
     background-size: cover;
     background-position: 100% 0%;
     transition: 8s;
